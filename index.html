@@ -5,29 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aurora Home and Tech | Home Furniture and Electronics</title>
 <meta name="description" content="Aurora Home and Tech supplies quality home furniture and consumer electronics to customers and businesses in South Africa.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌌</text></svg>">
+<link rel="icon" type="image/png" href="favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#12242B;--muted:#4D6168;--bg:#F5F8F7;--panel:#FFFFFF;--teal:#0E7C7B;--violet:#4B3F85;--line:#D5E0DE}
+:root{--ink:#1F1B18;--muted:#5A4F47;--bg:#FBF7F3;--panel:#FFFFFF;--teal:#B8570A;--violet:#2B2B33;--line:#E6DAD0}
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth}
 body{font-family:'Public Sans',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
 h1,h2,h3{font-family:'Sora',system-ui,sans-serif;line-height:1.2}
 a{color:var(--teal)}
-:focus-visible{outline:3px solid var(--violet);outline-offset:2px}
+:focus-visible{outline:3px solid #1F1B18;outline-offset:2px}
 .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-header{background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;flex-wrap:wrap}
-.logo{font-family:'Sora',sans-serif;font-weight:700;font-size:1.15rem;text-decoration:none;color:var(--ink)}
-.logo span{color:var(--teal)}
-nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:600;font-size:.95rem}
-nav a:hover{color:var(--teal)}
-.hero{background:linear-gradient(135deg,#0B1F2A 0%,#123B45 55%,#2E2A66 100%);color:#fff;padding:88px 0 80px}
+header{background:#E8771B;position:sticky;top:0;z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:84px;flex-wrap:wrap}
+.logo{display:flex;align-items:center}
+.logo img{height:76px;width:auto;display:block;margin:4px 0}
+nav a{margin-left:18px;text-decoration:none;color:#1F1B18;font-weight:600;font-size:.95rem}
+nav a:hover{text-decoration:underline}
+.hero{background:linear-gradient(135deg,#1E1B18 0%,#2F2218 55%,#5A3210 100%);color:#fff;padding:88px 0 80px}
 .hero h1{font-size:clamp(2rem,5vw,3.4rem);max-width:15ch}
-.hero p{max-width:52ch;margin:20px 0 32px;color:#CFE3E1;font-size:1.1rem}
-.btn{display:inline-block;padding:13px 24px;border-radius:6px;background:#5FE0C8;color:#0B1F2A;font-weight:600;text-decoration:none;border:0;font:inherit;font-weight:600;cursor:pointer}
-.btn:hover{background:#8CF0DC}
-.btn.alt{background:transparent;color:#fff;border:1px solid #7FB8B3;margin-left:10px}
+.hero p{max-width:52ch;margin:20px 0 32px;color:#EADFD5;font-size:1.1rem}
+.btn{display:inline-block;padding:13px 24px;border-radius:6px;background:#E8771B;color:#1F1B18;font-weight:600;text-decoration:none;border:0;font:inherit;font-weight:600;cursor:pointer}
+.btn:hover{background:#F28C36}
+.btn.alt{background:transparent;color:#fff;border:1px solid #E8B48A;margin-left:10px}
 section{padding:72px 0}
 section h2{font-size:1.8rem;margin-bottom:12px}
 .lead{max-width:62ch;color:var(--muted);margin-bottom:36px}
@@ -52,10 +52,10 @@ label{display:block;font-weight:600;margin:14px 0 6px}
 input,textarea{width:100%;padding:11px 12px;border:1px solid #9FB3B0;border-radius:6px;font:inherit;background:#fff;color:var(--ink)}
 textarea{min-height:120px;resize:vertical}
 form .btn{background:var(--teal);color:#fff;margin-top:18px}
-form .btn:hover{background:#0A5E5D}
-footer{background:#0B1F2A;color:#B5CAC8;padding:32px 0;font-size:.9rem}
+form .btn:hover{background:#8F4408}
+footer{background:#1E1B18;color:#D9CFC6;padding:32px 0;font-size:.9rem}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-footer a{color:#8CF0DC}
+footer a{color:#F5B27A}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media (max-width:560px){nav a{margin:0 14px 0 0}.btn.alt{margin:12px 0 0}}
 </style>
@@ -63,7 +63,7 @@ footer a{color:#8CF0DC}
 <body>
 <header>
   <div class="wrap">
-    <a class="logo" href="#top">Aurora <span>Home &amp; Tech</span></a>
+    <a class="logo" href="#top" aria-label="Aurora Home &amp; Tech home"><img src="logo.jpg" alt="Aurora Home &amp; Tech logo" width="76" height="76"></a>
     <nav aria-label="Main">
       <a href="#about">About</a>
       <a href="#products">Products</a>
